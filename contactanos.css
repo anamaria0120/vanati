@@ -1,0 +1,60 @@
+*{
+    background-color: antiquewhite;
+}
+
+.logo{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 30px;
+}
+
+
+.contenedor{
+text-align: center;
+}
+
+.menu{
+    color: #804000;
+    border: 2px solid #a3d7f5;
+    background-color: white;
+    width: 15%;
+    height: 35px;
+    margin-bottom: 40px;  
+    }
+
+.descripcion{
+    color:#804000;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color:#804000;
+        
+ }
+#centrarinstagram{
+    text-align: center;
+}
+
+#textoinstagram{
+    color:#804000;
+    font-size: 20px;
+    
+}
+
+#centrarwhatsapp{
+    text-align: center;
+}
+
+
+#textowhatsapp{
+    color:#804000;
+    font-size: 20px;
+    
+}
+
+hr{
+   width: 60%; 
+}
