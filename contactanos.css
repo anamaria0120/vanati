@@ -1,6 +1,11 @@
 *{
-    background-color: antiquewhite;
+background-color: antiquewhite;
 }
+
+.iconomenu{
+display: none;
+}
+
 
 .logo{
 display: flex;
@@ -14,47 +19,71 @@ padding-bottom: 30px;
 text-align: center;
 }
 
-.menu{
-    color: #804000;
-    border: 2px solid #a3d7f5;
-    background-color: white;
-    width: 15%;
-    height: 35px;
-    margin-bottom: 40px;  
-    }
+
+.menu {
+color: #804000;
+border: 2px solid #a3d7f5;
+background-color: white;
+width: 15%;
+height: 35px;
+margin-bottom: 40px;  
+}
+
 
 .descripcion{
-    color:#804000;
-    font-size: 20px;
-    text-align: center;
+color:#804000;
+font-size: 20px;
+text-align: center;
 }
+
 
 footer{
-    text-align: center;
-    color:#804000;
-        
- }
-#centrarinstagram{
-    text-align: center;
+text-align: center;
+color:#804000;       
 }
+
+
+#centrarinstagram{
+text-align: center;
+}
+
 
 #textoinstagram{
-    color:#804000;
-    font-size: 20px;
-    
+color:#804000;
+font-size: 20px;   
 }
 
+
 #centrarwhatsapp{
-    text-align: center;
+text-align: center;
 }
 
 
 #textowhatsapp{
-    color:#804000;
-    font-size: 20px;
-    
+color:#804000;
+font-size: 20px;   
 }
 
+
 hr{
-   width: 60%; 
+width: 60%; 
+}
+
+@media(max-width:320px){
+
+.iconomenu{
+display: inline;
+width: 40px;
+height: 36px;
+margin-left: 240px;
+margin-top: 20px;
+}
+
+.menu{
+    display: none;
+}
+
+
+
+
 }
