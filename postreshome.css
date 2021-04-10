@@ -29,12 +29,15 @@ main{
     margin-bottom: 40px;  
 }
 
+#contenedorimagenprincipal{
+    text-align: center;
+    width: 100%;
+}
+
 
 #imagenprincipal{
-    text-align: center;  
-    width: 52%;
-    height: 390px;
-    margin-left: 319px;
+    
+    
 }
 
 ul{
