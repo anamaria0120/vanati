@@ -112,7 +112,7 @@
 
 
 
-    @media(max-width:320px) {
+    @media(max-width:375px) {
 
 
     .iconomenu{
@@ -140,5 +140,12 @@
         background: white;
 
     }
+
+    .descripcion{
+        display: inline-block;
+    }
+#postres{
+    text-align: left;
+}
 
     }
